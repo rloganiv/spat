@@ -1,0 +1,4 @@
+# This directory will store any downloaded data. Make sure none of it finds
+# it's way into the GitHub repo.
+*
+!.gitignore
