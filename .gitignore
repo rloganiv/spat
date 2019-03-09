@@ -1,0 +1,7 @@
+# Python related
+*.pyc
+__pycache__/
+
+# Linting related
+.mypy_cache/
+.pytest_cache/
