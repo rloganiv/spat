@@ -47,4 +47,3 @@ source activate testenv
 echo "Installing requirements"
 pip install --upgrade pip --quiet
 pip install -r requirements.txt --quiet
-

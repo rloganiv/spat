@@ -11,4 +11,3 @@ if [[ "$COVERAGE" == "true" ]]; then
     # be published.
     codecov || echo "codecov upload failed"
 fi
-

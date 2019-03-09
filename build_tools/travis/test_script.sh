@@ -16,11 +16,10 @@ run_tests() {
 
 if [[ "$RUN_LINT" == "true" ]]; then
     echo "Running linter and mypy"
-    pylint --disable-warnings spat
+    pylint --rcfile=.pylintrc spat
     mypy --ignore-missing-imports --no-strict-optional spat
 fi
 
 if [[ "$SKIP_TESTS" != "true" ]]; then
     run_tests
 fi
-
